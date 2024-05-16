@@ -1,6 +1,9 @@
-import React from "react";
+interface VideosProps {
+  videos: any[];
+}
 
-const Videos = () => {
+const Videos = ({ videos }: VideosProps) => {
+  console.log(videos.length);
   return <div>Videos</div>;
 };
 
